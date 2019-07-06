@@ -4,7 +4,7 @@ def key_for_min_value(wedding_hash)
 key_for_min. collect. do |item, points|
  lowest_key = nil
   lowest_value = nil
-  hash.each do |item, points|
+  wedding_hash.each do |item, points|
     if lowest_value == nil || points < lowest_value
       lowest_value = points
       lowest_key = item
